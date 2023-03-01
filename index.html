@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.js"
+    integrity="sha512-RefYJFvLbj6WnGkdf40i7tlnvORh5VhCXuyaYRrj0hu5y0aHMCO1ROPLnRfMzbZ7SJqCYaQ92EAsGf9OyY9BNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <h1>MY CALCULATOR
+    <br>
+    <span>PROJECT#2 IN JAVASCRIPT</span>
+  </h1>
+  <div class="ct">
+    <div class="container">
+      <div class="displayer">
+        <textarea name="" id="digits" disabled>
+        </textarea>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" onclick="display('1')">1</button>
+          <button type="button" onclick="display('2')">2</button>
+          <button type="button" onclick="display('3')">3</button>
+          <button type="button" onclick="display('+')">+</button>
+        </div>
+        <div class="col">
+          <button type="button" onclick="display('4')">4</button>
+          <button type="button" onclick="display('5')">5</button>
+          <button type="button" onclick="display('6')">6</button>
+          <button type="button" onclick="display('-')">-</button>
+        </div>
+        <div class="col">
+          <button type="button" onclick="display('7')">7</button>
+          <button type="button" onclick="display('8')">8</button>
+          <button type="button" onclick="display('9')">9</button>
+          <button type="button" onclick="display('*')">*</button>
+        </div>
+        <div class="col">
+          <button type="button" onclick="display('0')">0</button>
+          <button type="button" onclick="display('.')">.</button>
+          <button type="button" onclick="calculateit()">=</button>
+          <button type="button" onclick="clearer()">C</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
